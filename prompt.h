@@ -13,8 +13,8 @@ showResponse();
 
 private:
 int number();
-std:: string word();
-std:: string text(); //change to not functions
+std:: string word;
+std:: string text; //change to not functions
 };
 
 #endif
