@@ -98,7 +98,7 @@ return 0;
 
 
 void Story(vector<prompt> all){
-//Etc
+
 
 }
 
