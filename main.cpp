@@ -1,7 +1,7 @@
 #include <iostream>
 #include<string>
 #include<vector>
-
+#include "prompt.h"
 
 using namespace std;
 
@@ -15,6 +15,7 @@ first.getStringResponse();
 all.push_back(first);
 
 //repeat
+prompt second;
 
 
 return 0;
