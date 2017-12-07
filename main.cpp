@@ -5,6 +5,8 @@
 
 using namespace std;
 
+void Story();
+
 
 int main (){
 //Retrieve and Store User Words
@@ -18,5 +20,15 @@ all.push_back(first);
 prompt second;
 
 
+//Start Story
+
+Story();
+
 return 0;
+}
+
+
+void Story(){
+
+
 }
