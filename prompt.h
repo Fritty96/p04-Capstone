@@ -9,8 +9,8 @@ public:
 setText(string);
 getIntResponse();
 getStringResponse();
-showResponse();
-
+showIntResponse();
+showStringResponse();
 private:
 int number();
 std:: string word;
