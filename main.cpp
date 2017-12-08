@@ -98,7 +98,7 @@ all.push_back(thirteen);
 Story(all);
 	
 } 
-while(choose=='Y'||choose=='y');
+while(choose=='Y'&& choose=='y');
 
 
 return 0;
@@ -108,6 +108,7 @@ return 0;
 void Story(vector<prompt> all){
 string a,b,c;
 //change cout statements so that each line is a string. Change madlibs words to own strings.
+
 cout<< "A long time ago, in a land not so far away, you find yourself embarking on a journey to discover the missing treasure of"  <<
 Noun << "." <<endl; 
 cout << " Said treasure has been missing for "<<LNumber<<" years, but you- you have decided to embark on this perilous adventure to be the one" 
@@ -119,7 +120,7 @@ cout << "The first choice you come upon is whether to truly begin your journey t
 cout << "CHOICE: (L)EAVE/(S)TAY" << endl;
   cin >> One;
   
-  if (one == 'S' || one == 's'){
+  if (one == 'S' && one == 's'){
   cout << "Wonderful. You have decided that maybe fame fortune and all that rubbish is not for you." << endl
   << "You prefer a more relaxed life of simple comforts. So the treasure of " << Noun << " stay exactly where they were, << endl <<
   "hidden forever more- never to be found. Congratulations, you have come to the end of your journey." << endl;
@@ -127,7 +128,7 @@ cout << "CHOICE: (L)EAVE/(S)TAY" << endl;
   break;
   }
     
-  else if (one =='L' || one == 'l')
+  else if (one =='L' && one == 'l')
   {
      cout << "Huzzah! You have chosen to embark on your " << Adj2 <<" quest. In doing so, you’ve left behind your comforts "<<endl
      << "in search of fame and fortune. Packing up what you need, you set out at the dawn of a new day. Problem is, where did you set out to?"
@@ -135,7 +136,7 @@ cout << "CHOICE: (L)EAVE/(S)TAY" << endl;
      cout << " CHOICE: (M)OUNTAINS/(F)OREST" << endl;
       cin >> two;
   }
-      if (two == 'M' || two =='m'){
+      if (two == 'M' && two =='m'){
        cout << "Oh, the Mountains of "<< Noun <<". Home to "<<Animal<<" and "<<Animal2<< ". A beautiful, but treacherous area to travel.<<endl 
         <<" But that matters not, for you are determined! Setting off on your "<<Adj3<<" steed," << endl
         << "the mountain range grows closer and closer. Soon you are upon it. Demounting your steed, you find yourself "<< endl<< 
@@ -146,7 +147,7 @@ cout << "CHOICE: (L)EAVE/(S)TAY" << endl;
 	"around and go search for a new path. What shall it be? "<<endl;
         cout <<"CHOICE: (J)UMP/(T)URN BACK" <<endl;
         cin >> three;
-          if (three=='J' || three=='j'){
+          if (three=='J' && three=='j'){
             cout<< "Jump? Alright… Mustering up your courage, you take a running start and jump with all of your might!" <<endl<<
             "The ground is no longer beneath your feet, but rather a perilous drop. You grow closer and closer to the edge."<<endl<<
             "You might make it! Seconds seem to stretch on to hours as you feel the wind rush pass you, as you feel your heart in"<<endl<<
@@ -155,7 +156,7 @@ cout << "CHOICE: (L)EAVE/(S)TAY" << endl;
             "you have come to the end of your journey." <<endl;
               break;
           }
-          else if (three=='T' || three =='t'){
+          else if (three=='T' && three =='t'){
             cout<< "Rather than chance the jump, you turn around in search of a new pathway. And while you do come across a few pathways, "
             <<endl<< "none lead much further than your first- all seeming to end in many sorts of treacherous ledges." <<endl<<
             "Maybe this mountain is not for you. Maybe if you had jumped, you could have found what you were looking for."<<endl<<
@@ -165,7 +166,7 @@ cout << "CHOICE: (L)EAVE/(S)TAY" << endl;
  
           }
       }
-        else if (two=='F'||two=='f'){
+        else if (two=='F' && two=='f'){
           cout << "Ah! The forest! A wondrous place of "<<Animal<<" and "<<Animal2<<". But don’t let that ward you off. Surely deep in" 
           <<endl<< " its depths lies the treasure you seek. Through the branches and brambles you stumble, steadfast in your search."
 	  <<endl<<" But as hours roll on, nothing out of the norm has cropped up. Perhaps you are too late in your quest? Wait!"
@@ -175,7 +176,7 @@ cout << "CHOICE: (L)EAVE/(S)TAY" << endl;
           cout << "CHOICE: (G)O IN/ (I)GNORE IT"<< endl;
           cin >> four;       
         
-          if (four == 'G'||four == 'g'){
+          if (four == 'G'&& four == 'g'){
             "Deciding to ignore all sense of terrible feelings towards entering a dead guy’s final resting place, " <<endl<<
             "you bravely choose to enter it. Going in, you find the crypt much bigger than it seemed on the outside." <<endl<<
             " In fact, one could say it looked like the inside of a "<< LPlace <<" . But, maybe just in size, and not content."<<endl<<
@@ -185,7 +186,7 @@ cout << "CHOICE: (L)EAVE/(S)TAY" << endl;
 	    "But can we truly call you normal, "<<Name<<"?" <<endl;
 	    cout<< "CHOICE: OPEN (C)OFFIN/(L)OOK SOMEWHERE ELSE"<<endl;
               cin >> five;
-              if (five=='C'||five=='c'){
+              if (five=='C'&& five=='c'){
                 cout<< "Wow, okay, no morals. Got it. Anyway, you go ahead and push at the lid of the "<< Material <<" coffin,"<<endl<<
                 " only to come upon a skeleton. Wow, shocker. So in finding nothing but what was supposed to be within there,"<<endl<<
                 " you turn to begin a search for any other sort of clue towards hidden items. Except, you don’t get the chance. "<<endl<<
@@ -195,7 +196,7 @@ cout << "CHOICE: (L)EAVE/(S)TAY" << endl;
                   break;
               }
 
-             else if (five=='L'||five=='l'){
+             else if (five=='L'&& five=='l'){
               cout << "Congratulations, you’re normal, with normal morals. Anyway, good job on the choice. Rather than desecrate the grave,"
               <<endl<<" you go and look around a few of the "<<Number<<" vases sitting about the room. Accidentally knocking a few over in the "
               <<endl<<" process, you come upon a key hidden inside one of them. Looking around again, you easily spot a floor hatch "
@@ -203,7 +204,7 @@ cout << "CHOICE: (L)EAVE/(S)TAY" << endl;
               <<endl<<" Quickly making your way down the ladder, you find yourself ending up within a large cave splitting off into "
 	      <<endl<< "two pathways. Which way will you go?" <<endl << "CHOICE: (R)IGHT/(L)EFT" << endl;
               cin >> six;
-               if (six =="R"||six=="r"){
+               if (six =="R"&&six=="r"){
                  cout <<"Making the choice to go to the right, you find yourself walking for "<< Num2 << MOT<<"."<<endl<< 
                  "All seems lost, and you have finally began to feel the exhaustion of this whole journey. You begin to ask yourself, "
                  <<endl<< " was this journey truly worth it? In the end, all you find in the cave are bones of long gone animals and "
@@ -212,7 +213,7 @@ cout << "CHOICE: (L)EAVE/(S)TAY" << endl;
                    break;
 
                }
-               else if (six=="L"||six=="l"){
+               else if (six=="L"&&six=="l"){
                  "Making the choice to go to the left, you find yourself walking for "<< Num2 << " "<< MOT << "."<<endl
                  << "When all seems lost, and you have finally began to feel the exhaustion of this whole journey that you stumble " 
                  <<endl<< "upon a cavern of vast treasure! It’s the treasure of "<<PLACE<<"! You found it! All of your work paid off and soon"
@@ -225,7 +226,7 @@ cout << "CHOICE: (L)EAVE/(S)TAY" << endl;
              }
            }
         }
-          else if (four == "I"||four=="i"){
+          else if (four == "I"&&four=="i"){
           cout <<"You have decided that going in a spooky old crypt is taking too much of a chance. So rather than go inside to find what "
            <<endl<< "lie within, you go around it and continue on your journey through the forest. Unfortunately, days go by, food grows scarce, "
            <<endl<<" and you have found nothing to fulfill your need for treasure outside a few lost gold coins on the ground. "
