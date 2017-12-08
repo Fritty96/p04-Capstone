@@ -62,13 +62,13 @@ else if text = "Adj3"{
 }
 
 
-prompt::getStringResponse(){
+void prompt::getStringResponse(){
 cin >> word;
 
 }
 
 
-prompt::getIntResponse(){
+void prompt::getIntResponse(){
 cin >> number;
 
 }
