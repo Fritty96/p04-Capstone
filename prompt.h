@@ -6,11 +6,11 @@
 
 class prompt {
 public:
-setText(string);
-getIntResponse();
-getStringResponse();
-showIntResponse();
-showStringResponse();
+void setText(string);
+int getIntResponse();
+std:: string getStringResponse();
+int showIntResponse();
+std:: string showStringResponse();
 private:
 int number();
 std:: string word;
