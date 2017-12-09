@@ -72,7 +72,6 @@ cin >> word;
 
 }
 
-
 int prompt::getIntResponse(){
 cin >> number;
 
