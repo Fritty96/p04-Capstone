@@ -16,6 +16,8 @@ I created multiple functions in order to complete tasks such as storing informat
 ###### FILE IO
 [main.cpp lines 320-323](/main.cpp)
 I created a file input in order to save the story so that the user could read their adventure at a later date.
+
+
 ####### CLASS
 [prompt.h lines 1-20](/prompt.h)
 I used a class thinking that it was the best way to prompt the user many different ways, recieve a user's multiple answers to store, and retrieving the values without bogging down main.cpp with repetitive code. 
