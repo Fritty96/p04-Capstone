@@ -477,5 +477,3 @@ myfile.close();
 	
 	
 }
-
-
