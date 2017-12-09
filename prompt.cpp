@@ -57,6 +57,11 @@ else if (text = "Adj3"){
 
     cout << "Please enter an adjective" << endl;
     }
+else if (text = "Material"){
+
+    cout << "Please enter a type of Material" << endl;
+    }
+
 
 
 }
