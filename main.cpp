@@ -113,7 +113,6 @@ return 0;
 void Story(vector<prompt> all, vector <string> & story){
 //Function to assign story to strings within a vector
 
-vector<string>story;
 story.resize(0);
 string a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z,one,two;
 string Name, Noun, LNumber, Title, Adjective, Adj2, Animal, Animal2, LPlace, Number, Num2, MOT, Adj3, Material;
