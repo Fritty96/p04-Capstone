@@ -100,8 +100,8 @@ all.push_back(fourteen);
 
 //Start Story
 
-coutfile(story);
-	
+	coutfile(story);
+
 } 
 while(choose=='Y'&& choose=='y');
 
